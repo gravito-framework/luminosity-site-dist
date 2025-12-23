@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    
+    <link rel="stylesheet" href="/static/build/assets/app.css">
+    <script type="module" src="/static/build/assets/app.js"></script>
+    
+<title>getting-started - Luminosity Docs</title>
+<meta name="description" content="Documentation for getting-started in Luminosity SEO Engine.">
+<link rel="canonical" href="https://lux.gravito.dev/docs/getting-started">
+<meta property="og:title" content="getting-started - Luminosity Docs">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://lux.gravito.dev/docs/getting-started">
+<meta property="og:description" content="Documentation for getting-started in Luminosity SEO Engine.">
+<meta property="og:image" content="https://lux.gravito.dev/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="getting-started - Luminosity Docs">
+<meta name="twitter:description" content="Documentation for getting-started in Luminosity SEO Engine.">
+<meta name="twitter:image" content="https://lux.gravito.dev/og-image.png">
+</head>
+
+<body class="bg-black">
+    <div id="app" data-page='{"component":"Docs","props":{"content":"&lt;h1&gt;Getting Started&lt;/h1&gt;\n&lt;p&gt;Ready to experience the speed of Luminosity? This guide will help you set up your first instance and start performing basic operations.&lt;/p&gt;\n&lt;h2&gt;Installation&lt;/h2&gt;\n&lt;p&gt;Install the core package via Bun:&lt;/p&gt;\n&lt;pre&gt;&lt;code class=\&quot;language-bash\&quot;&gt;bun add @gravito/luminosity\n&lt;/code&gt;&lt;/pre&gt;\n&lt;h2&gt;Basic Usage&lt;/h2&gt;\n&lt;p&gt;Initializing a Luminosity instance is straightforward:&lt;/p&gt;\n&lt;pre&gt;&lt;code class=\&quot;language-typescript\&quot;&gt;import { Luminosity } from &amp;#39;@gravito/luminosity&amp;#39;;\n\nconst db = new Luminosity({\n  path: &amp;#39;./data&amp;#39;,\n  maxMemtableSize: 64 * 1024 * 1024, // 64MB\n});\n\nawait db.open();\n\n// Write some data\nawait db.put(&amp;#39;key1&amp;#39;, &amp;#39;Hello World&amp;#39;);\n\n// Read it back\nconst value = await db.get(&amp;#39;key1&amp;#39;);\nconsole.log(value); // Hello World\n\nawait db.close();\n&lt;/code&gt;&lt;/pre&gt;\n&lt;h2&gt;Configuration Options&lt;/h2&gt;\n&lt;table&gt;\n&lt;thead&gt;\n&lt;tr&gt;\n&lt;th&gt;Option&lt;/th&gt;\n&lt;th&gt;Type&lt;/th&gt;\n&lt;th&gt;Default&lt;/th&gt;\n&lt;th&gt;Description&lt;/th&gt;\n&lt;/tr&gt;\n&lt;/thead&gt;\n&lt;tbody&gt;&lt;tr&gt;\n&lt;td&gt;&lt;code&gt;path&lt;/code&gt;&lt;/td&gt;\n&lt;td&gt;&lt;code&gt;string&lt;/code&gt;&lt;/td&gt;\n&lt;td&gt;&lt;code&gt;undefined&lt;/code&gt;&lt;/td&gt;\n&lt;td&gt;Directory to store data files&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;code&gt;maxMemtableSize&lt;/code&gt;&lt;/td&gt;\n&lt;td&gt;&lt;code&gt;number&lt;/code&gt;&lt;/td&gt;\n&lt;td&gt;&lt;code&gt;67108864&lt;/code&gt;&lt;/td&gt;\n&lt;td&gt;In-memory buffer size before flushing&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;code&gt;bloomFilter&lt;/code&gt;&lt;/td&gt;\n&lt;td&gt;&lt;code&gt;boolean&lt;/code&gt;&lt;/td&gt;\n&lt;td&gt;&lt;code&gt;true&lt;/code&gt;&lt;/td&gt;\n&lt;td&gt;Enable Bloom filters for faster lookups&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/tbody&gt;&lt;/table&gt;\n&lt;h2&gt;Next Steps&lt;/h2&gt;\n&lt;p&gt;Now that you have Luminosity up and running, explore the &lt;a href=\&quot;/docs/advanced\&quot;&gt;Advanced Configuration&lt;/a&gt; and &lt;a href=\&quot;/docs/performance\&quot;&gt;Performance Tuning&lt;/a&gt; guides to push your application to its limits.&lt;/p&gt;\n","toc":[],"sidebar":[{"title":"Guide","items":[{"title":"Framework Integrations","href":"/docs/frameworks"},{"title":"CLI Reference","href":"/docs/cli"},{"title":"Usage Examples","href":"/docs/examples"},{"title":"Performance Benchmark","href":"/docs/benchmark"},{"title":"introduction","href":"/docs/introduction"},{"title":"getting-started","href":"/docs/getting-started"}]}],"currentPath":"/docs/getting-started","locale":"en"},"url":"/docs/getting-started","version":"1.0.0"}'></div>
+</body>
+
+</html>
