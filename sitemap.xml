@@ -9,163 +9,163 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://lux.gravito.dev</loc>
-    <lastmod>2025-12-28T07:53:38.333Z</lastmod>
+    <lastmod>2025-12-28T11:01:59.301Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://lux.gravito.dev/docs/architecture</loc>
-    <lastmod>2025-12-28T07:53:38.333Z</lastmod>
+    <lastmod>2025-12-28T11:01:59.302Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://lux.gravito.dev/docs/benchmark</loc>
-    <lastmod>2025-12-28T07:53:38.334Z</lastmod>
+    <lastmod>2025-12-28T11:01:59.303Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://lux.gravito.dev/docs/cli</loc>
-    <lastmod>2025-12-28T07:53:38.334Z</lastmod>
+    <lastmod>2025-12-28T11:01:59.302Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://lux.gravito.dev/docs/examples</loc>
-    <lastmod>2025-12-28T07:53:38.334Z</lastmod>
+    <lastmod>2025-12-28T11:01:59.303Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://lux.gravito.dev/docs/frameworks</loc>
-    <lastmod>2025-12-28T07:53:38.334Z</lastmod>
+    <lastmod>2025-12-28T11:01:59.302Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://lux.gravito.dev/docs/getting-started</loc>
-    <lastmod>2025-12-28T07:53:38.333Z</lastmod>
+    <lastmod>2025-12-28T11:01:59.302Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://lux.gravito.dev/docs/introduction</loc>
-    <lastmod>2025-12-28T07:53:38.333Z</lastmod>
+    <lastmod>2025-12-28T11:01:59.302Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://lux.gravito.dev/en</loc>
-    <lastmod>2025-12-28T07:53:38.333Z</lastmod>
+    <lastmod>2025-12-28T11:01:59.301Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://lux.gravito.dev/en/docs/architecture</loc>
-    <lastmod>2025-12-28T07:53:38.334Z</lastmod>
+    <lastmod>2025-12-28T11:01:59.302Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://lux.gravito.dev/en/docs/benchmark</loc>
-    <lastmod>2025-12-28T07:53:38.334Z</lastmod>
+    <lastmod>2025-12-28T11:01:59.303Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://lux.gravito.dev/en/docs/cli</loc>
-    <lastmod>2025-12-28T07:53:38.334Z</lastmod>
+    <lastmod>2025-12-28T11:01:59.302Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://lux.gravito.dev/en/docs/examples</loc>
-    <lastmod>2025-12-28T07:53:38.334Z</lastmod>
+    <lastmod>2025-12-28T11:01:59.303Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://lux.gravito.dev/en/docs/frameworks</loc>
-    <lastmod>2025-12-28T07:53:38.334Z</lastmod>
+    <lastmod>2025-12-28T11:01:59.302Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://lux.gravito.dev/en/docs/getting-started</loc>
-    <lastmod>2025-12-28T07:53:38.333Z</lastmod>
+    <lastmod>2025-12-28T11:01:59.302Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://lux.gravito.dev/en/docs/introduction</loc>
-    <lastmod>2025-12-28T07:53:38.333Z</lastmod>
+    <lastmod>2025-12-28T11:01:59.302Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://lux.gravito.dev/en/features</loc>
-    <lastmod>2025-12-28T07:53:38.333Z</lastmod>
+    <lastmod>2025-12-28T11:01:59.302Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://lux.gravito.dev/features</loc>
-    <lastmod>2025-12-28T07:53:38.333Z</lastmod>
+    <lastmod>2025-12-28T11:01:59.302Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://lux.gravito.dev/zh</loc>
-    <lastmod>2025-12-28T07:53:38.333Z</lastmod>
+    <lastmod>2025-12-28T11:01:59.302Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://lux.gravito.dev/zh/docs/architecture</loc>
-    <lastmod>2025-12-28T07:53:38.334Z</lastmod>
+    <lastmod>2025-12-28T11:01:59.303Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://lux.gravito.dev/zh/docs/benchmark</loc>
-    <lastmod>2025-12-28T07:53:38.334Z</lastmod>
+    <lastmod>2025-12-28T11:01:59.303Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://lux.gravito.dev/zh/docs/cli</loc>
-    <lastmod>2025-12-28T07:53:38.334Z</lastmod>
+    <lastmod>2025-12-28T11:01:59.303Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://lux.gravito.dev/zh/docs/examples</loc>
-    <lastmod>2025-12-28T07:53:38.334Z</lastmod>
+    <lastmod>2025-12-28T11:01:59.303Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://lux.gravito.dev/zh/docs/frameworks</loc>
-    <lastmod>2025-12-28T07:53:38.334Z</lastmod>
+    <lastmod>2025-12-28T11:01:59.303Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://lux.gravito.dev/zh/docs/getting-started</loc>
-    <lastmod>2025-12-28T07:53:38.334Z</lastmod>
+    <lastmod>2025-12-28T11:01:59.303Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://lux.gravito.dev/zh/docs/introduction</loc>
-    <lastmod>2025-12-28T07:53:38.334Z</lastmod>
+    <lastmod>2025-12-28T11:01:59.303Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://lux.gravito.dev/zh/features</loc>
-    <lastmod>2025-12-28T07:53:38.333Z</lastmod>
+    <lastmod>2025-12-28T11:01:59.302Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
