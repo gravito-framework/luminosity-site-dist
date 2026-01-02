@@ -14,6 +14,30 @@
     <link rel="stylesheet" href="/static/build/assets/app.css">
     <script type="module" src="/static/build/assets/app.js"></script>
     
+
+    <!-- Google Analytics -->
+    <script>
+        (function() {
+            // Extract shared data from Inertia page object
+            try {
+                var page = JSON.parse('{"component":"Docs","props":{"title":"介紹","content":"&lt;h1&gt;Luminosity 介紹&lt;/h1&gt;\n&lt;p&gt;歡迎來到 Luminosity，這是 Gravito 框架中用於產生高效能 Sitemap (網站地圖) 的核心引擎。&lt;/p&gt;\n&lt;p&gt;若要取得最完整的體驗（深度整合、生命週期 Hook、官方適配器），建議搭配 Gravito 主框架使用。&lt;/p&gt;\n&lt;h2&gt;什麼是 Luminosity？&lt;/h2&gt;\n&lt;p&gt;Luminosity (光度) 是一套專為大規模現代網站設計的 Sitemap 產生與管理解決方案。它的名稱源自天文學中的「光度」，象徵著讓您的網站在搜尋引擎的浩瀚宇宙中如恆星般閃耀。&lt;/p&gt;\n&lt;p&gt;它不僅僅是一個 Sitemap 產生器，它還是一個 &lt;strong&gt;SmartMap Engine (智慧地圖引擎)&lt;/strong&gt;。&lt;/p&gt;\n&lt;h3&gt;核心特性&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;高效能 (High Performance)&lt;/strong&gt;: 採用串流架構 (Streaming Architecture)，即使是百萬級別的 URL 也能輕鬆應對，記憶體佔用極低。&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;治理 (Governance)&lt;/strong&gt;: 內建生命週期管理，包含 &lt;code&gt;Create&lt;/code&gt; (建立), &lt;code&gt;Update&lt;/code&gt; (更新), &lt;code&gt;Compact&lt;/code&gt; (壓實), &lt;code&gt;Warm&lt;/code&gt; (預熱) 等機制。&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;SEO 優先&lt;/strong&gt;: 自動處理 robots.txt，支援多種 Sitemap 格式 (XML, Index, Text)，並遵循 Google 與 Bing 的最佳實踐。&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;開發者友善&lt;/strong&gt;: 提供豐富的 CLI 工具 (&lt;code&gt;lux&lt;/code&gt;) 與 TypeScript API，輕鬆整合至任何 CI/CD 流程。&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;功能亮點&lt;/h2&gt;\n&lt;h3 id=\&quot;incremental-lsm-tree-engine\&quot;&gt;LSM 樹增量引擎&lt;/h3&gt;\n\n&lt;p&gt;Luminosity 以日誌結構合併流程 (LSM) 將新 URL 追加為不可變操作，再於背景進行壓實。寫入維持順序化，避免傳統 Sitemap 重寫造成的鎖競爭。&lt;/p&gt;\n&lt;h3 id=\&quot;enterprise-grade\&quot;&gt;企業級架構&lt;/h3&gt;\n\n&lt;p&gt;內建互斥鎖與陳舊內容優先驗證 (SWR) 快取策略，在高流量情境下也能穩定服務。更新寫入不會阻塞讀取。&lt;/p&gt;\n&lt;h3 id=\&quot;auto-sitemap-index\&quot;&gt;自動 Sitemap 索引&lt;/h3&gt;\n\n&lt;p&gt;當 URL 超過 50,000 上限時，Luminosity 會自動切分 Sitemap 並產生索引，無需手動分頁或維護。&lt;/p&gt;\n&lt;h3 id=\&quot;robots-txt-proxy\&quot;&gt;Robots.txt 代理&lt;/h3&gt;\n\n&lt;p&gt;透過同一條 Luminosity 管線產生 &lt;code&gt;robots.txt&lt;/code&gt;，讓爬蟲規則與 Sitemap 更新同步，不同環境也能維持一致策略。&lt;/p&gt;\n&lt;h3 id=\&quot;meta-tag-builder\&quot;&gt;Meta 標籤管理器&lt;/h3&gt;\n\n&lt;p&gt;以結構化資料產生 Meta、OpenGraph、Twitter Cards 與 JSON-LD 標籤，確保輸出一致且具型別安全。&lt;/p&gt;\n&lt;h2&gt;為什麼需要它？&lt;/h2&gt;\n&lt;p&gt;由於現代網站多為 SPA (單頁應用) 或動態內容龐大，傳統的靜態 Sitemap 產生器往往難以應對：&lt;/p&gt;\n&lt;ol&gt;\n&lt;li&gt;&lt;strong&gt;更新不及時&lt;/strong&gt;: 內容更新後，Sitemap 往往滯後。&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;效能瓶頸&lt;/strong&gt;: URL 過多時，產生過程會耗盡伺服器資源。&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;缺乏管理&lt;/strong&gt;: 舊的、無效的連結殘留在 Sitemap 中，影響 SEO 分數。&lt;/li&gt;\n&lt;/ol&gt;\n&lt;p&gt;Luminosity 透過引入 &lt;strong&gt;LSM-Tree (Log-Structured Merge Tree)&lt;/strong&gt; 的概念來解決這些問題。所有的變更都先寫入增量日誌 (Delta Log)，再透過背景程序進行壓實 (Compaction)，確保 Sitemap 永遠保持最新且高效。&lt;/p&gt;\n","toc":[],"sidebar":[{"title":"指南","items":[{"title":"介紹","href":"/zh/docs/introduction"},{"title":"快速開始","href":"/zh/docs/getting-started"},{"title":"架構設計","href":"/zh/docs/architecture"},{"title":"CLI 命令列工具","href":"/zh/docs/cli"},{"title":"框架整合","href":"/zh/docs/frameworks"},{"title":"使用範例","href":"/zh/docs/examples"},{"title":"效能基準測試","href":"/zh/docs/benchmark"}]}],"currentPath":"/zh/docs/introduction","locale":"zh"},"url":"/zh/docs/introduction","version":"1.0.0"}');
+                var gaId = page.props.gaId;
+                if (gaId) {
+                    var script = document.createElement('script');
+                    script.async = true;
+                    script.src = 'https://www.googletagmanager.com/gtag/js?id=' + gaId;
+                    document.head.appendChild(script);
+
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config', gaId);
+                }
+            } catch (e) {
+                console.warn('[GA] Failed to initialize:', e);
+            }
+        })();
+    </script>
 <title>介紹 - Luminosity 指南</title>
 <meta name="description" content="Documentation for 介紹 in Luminosity SEO Engine.">
 <link rel="canonical" href="https://lux.gravito.dev/zh/docs/introduction">

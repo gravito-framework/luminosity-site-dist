@@ -14,6 +14,30 @@
     <link rel="stylesheet" href="/static/build/assets/app.css">
     <script type="module" src="/static/build/assets/app.js"></script>
     
+
+    <!-- Google Analytics -->
+    <script>
+        (function() {
+            // Extract shared data from Inertia page object
+            try {
+                var page = JSON.parse('{"component":"Home","props":{"message":"Welcome to Luminosity","locale":"zh"},"url":"/zh","version":"1.0.0"}');
+                var gaId = page.props.gaId;
+                if (gaId) {
+                    var script = document.createElement('script');
+                    script.async = true;
+                    script.src = 'https://www.googletagmanager.com/gtag/js?id=' + gaId;
+                    document.head.appendChild(script);
+
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config', gaId);
+                }
+            } catch (e) {
+                console.warn('[GA] Failed to initialize:', e);
+            }
+        })();
+    </script>
 <title>Luminosity - 向量原子級 Sitemap 引擎</title>
 <meta name="description" content="針對現代 Web 應用程式的高效能、智慧型 Sitemap 生成方案。">
 <link rel="canonical" href="https://lux.gravito.dev/zh">
