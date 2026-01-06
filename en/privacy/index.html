@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/favicon.svg">
+    <meta name="theme-color" content="#10B981">
+
+    
+    <link rel="stylesheet" href="/static/build/assets/app.css">
+    <script type="module" src="/static/build/assets/app.js"></script>
+    
+
+    <!-- Google Analytics -->
+    <script>
+        (function() {
+            // Extract shared data from Inertia page object
+            try {
+                var page = JSON.parse('{"component":"Privacy","props":{"locale":"en"},"url":"/en/privacy","version":"1.0.0"}');
+                var gaId = page.props.gaId;
+                if (gaId) {
+                    var script = document.createElement('script');
+                    script.async = true;
+                    script.src = 'https://www.googletagmanager.com/gtag/js?id=' + gaId;
+                    document.head.appendChild(script);
+
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config', gaId);
+                }
+            } catch (e) {
+                console.warn('[GA] Failed to initialize:', e);
+            }
+        })();
+    </script>
+<title>Privacy Policy - Luminosity</title>
+<meta name="description" content="Read our privacy policy and how we handle data with respect to digital sovereignty.">
+<link rel="canonical" href="https://lux.gravito.dev/en/privacy">
+<meta property="og:title" content="Privacy Policy - Luminosity">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://lux.gravito.dev/en/privacy">
+<meta property="og:description" content="Read our privacy policy and how we handle data with respect to digital sovereignty.">
+<meta property="og:image" content="https://lux.gravito.dev/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Privacy Policy - Luminosity">
+<meta name="twitter:description" content="Read our privacy policy and how we handle data with respect to digital sovereignty.">
+<meta name="twitter:image" content="https://lux.gravito.dev/og-image.png">
+</head>
+
+<body class="bg-black">
+    <div id="app" data-page='{"component":"Privacy","props":{"locale":"en"},"url":"/en/privacy","version":"1.0.0"}'></div>
+</body>
+
+</html>

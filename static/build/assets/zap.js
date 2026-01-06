@@ -13,9 +13,4 @@ import{c}from"./Layout.vue_vue_type_script_setup_true_lang.js";/**
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */const i=c("ShieldIcon",[["path",{d:"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10",key:"1irkt0"}]]);/**
- * @license lucide-vue-next v0.300.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */const t=c("ZapIcon",[["polygon",{points:"13 2 3 14 12 14 11 22 21 10 12 10 13 2",key:"45s27k"}]]);export{y as A,n as S,t as Z,i as a};
+ */const i=c("ZapIcon",[["polygon",{points:"13 2 3 14 12 14 11 22 21 10 12 10 13 2",key:"45s27k"}]]);export{y as A,n as S,i as Z};
