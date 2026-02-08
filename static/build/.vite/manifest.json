@@ -1,39 +1,4 @@
 {
-  "_chevron-right.js": {
-    "file": "assets/chevron-right.js",
-    "name": "chevron-right",
-    "imports": [
-      "_createLucideIcon.js"
-    ]
-  },
-  "_createLucideIcon.js": {
-    "file": "assets/createLucideIcon.js",
-    "name": "createLucideIcon",
-    "imports": [
-      "app.ts"
-    ]
-  },
-  "_search.js": {
-    "file": "assets/search.js",
-    "name": "search",
-    "imports": [
-      "_createLucideIcon.js"
-    ]
-  },
-  "_shield.js": {
-    "file": "assets/shield.js",
-    "name": "shield",
-    "imports": [
-      "_createLucideIcon.js"
-    ]
-  },
-  "_zap.js": {
-    "file": "assets/zap.js",
-    "name": "zap",
-    "imports": [
-      "_createLucideIcon.js"
-    ]
-  },
   "app.ts": {
     "file": "assets/app.js",
     "name": "app",
@@ -51,18 +16,12 @@
       "assets/app.css"
     ]
   },
-  "assets/hero-graphic.png": {
-    "file": "assets/hero-graphic.png",
-    "src": "assets/hero-graphic.png"
-  },
   "pages/Docs.vue": {
     "file": "assets/Docs.js",
     "name": "Docs",
     "src": "pages/Docs.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_chevron-right.js",
-      "_createLucideIcon.js",
       "app.ts"
     ]
   },
@@ -72,11 +31,7 @@
     "src": "pages/Features.vue",
     "isDynamicEntry": true,
     "imports": [
-      "app.ts",
-      "_createLucideIcon.js",
-      "_zap.js",
-      "_chevron-right.js",
-      "_shield.js"
+      "app.ts"
     ]
   },
   "pages/Home.vue": {
@@ -85,18 +40,10 @@
     "src": "pages/Home.vue",
     "isDynamicEntry": true,
     "imports": [
-      "app.ts",
-      "_chevron-right.js",
-      "_zap.js",
-      "_shield.js",
-      "_search.js",
-      "_createLucideIcon.js"
+      "app.ts"
     ],
     "css": [
       "assets/Home.css"
-    ],
-    "assets": [
-      "assets/hero-graphic.png"
     ]
   },
   "pages/NotFound.vue": {
@@ -105,9 +52,7 @@
     "src": "pages/NotFound.vue",
     "isDynamicEntry": true,
     "imports": [
-      "app.ts",
-      "_createLucideIcon.js",
-      "_search.js"
+      "app.ts"
     ],
     "css": [
       "assets/NotFound.css"
@@ -119,9 +64,7 @@
     "src": "pages/Privacy.vue",
     "isDynamicEntry": true,
     "imports": [
-      "app.ts",
-      "_shield.js",
-      "_createLucideIcon.js"
+      "app.ts"
     ]
   },
   "pages/Terms.vue": {
@@ -130,8 +73,7 @@
     "src": "pages/Terms.vue",
     "isDynamicEntry": true,
     "imports": [
-      "app.ts",
-      "_createLucideIcon.js"
+      "app.ts"
     ]
   }
 }
